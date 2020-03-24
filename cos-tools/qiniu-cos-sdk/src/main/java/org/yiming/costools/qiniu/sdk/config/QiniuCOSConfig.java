@@ -1,6 +1,5 @@
 package org.yiming.costools.qiniu.sdk.config;
 
-import com.qiniu.common.Zone;
 import com.qiniu.storage.Region;
 import org.yiming.costools.exception.COSToolsException;
 

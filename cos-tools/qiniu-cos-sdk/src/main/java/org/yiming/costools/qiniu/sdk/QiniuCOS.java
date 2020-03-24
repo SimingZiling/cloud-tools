@@ -1,6 +1,5 @@
 package org.yiming.costools.qiniu.sdk;
 
-//import org.yiming.costools.qiniu.sdk.config.QiniuCOSConfig;
 
 import com.google.gson.Gson;
 import com.qiniu.common.QiniuException;
@@ -13,9 +12,7 @@ import com.qiniu.util.Auth;
 import org.yiming.costools.exception.COSToolsException;
 import org.yiming.costools.qiniu.sdk.config.QiniuCOSConfig;
 
-import javax.swing.plaf.synth.SynthScrollBarUI;
 import java.io.InputStream;
-import java.nio.file.Paths;
 
 public class QiniuCOS {
 
