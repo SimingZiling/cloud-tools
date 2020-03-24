@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>sms-tools</module>
+        <module>cos-tools</module>
     </modules>
 
     <properties>
@@ -25,6 +26,14 @@
                 <artifactId>sms-tools-util</artifactId>
                 <version>1.0-SNAPSHOT</version>
             </dependency>
+
+            <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+            <dependency>
+                <groupId>com.google.code.gson</groupId>
+                <artifactId>gson</artifactId>
+                <version>2.8.6</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 

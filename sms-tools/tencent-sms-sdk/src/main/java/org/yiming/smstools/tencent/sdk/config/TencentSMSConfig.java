@@ -58,7 +58,7 @@ public class TencentSMSConfig {
 
         /**
          * 构建腾讯云短信配置
-         * @return 腾讯短信配置
+         * @return 腾讯短信配置对象
          * @throws SMSToolsException
          */
         public TencentSMSConfig build() throws SMSToolsException {
