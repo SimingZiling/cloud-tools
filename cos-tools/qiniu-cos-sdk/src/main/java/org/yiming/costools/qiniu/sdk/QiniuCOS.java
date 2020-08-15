@@ -87,6 +87,14 @@ public class QiniuCOS {
         } catch (QiniuException e) {
             throw new COSToolsException(e.response.error);
         }
+    }
 
+    /**
+     * 获取上传文件Token
+     * @return token
+     */
+    public String getUpToken(){
+        Auth auth = Auth.create(qiniuCOSConfig.getAccessKey(), qiniuCOSConfig.getSecretKey());
+        return auth.uploadToken(qiniuCOSConfig.getBucket());
     }
 }
